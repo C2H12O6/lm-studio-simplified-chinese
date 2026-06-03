@@ -8,7 +8,7 @@ LM Studio 基于 Electron + Webpack 构建，UI 文本嵌入在编译后的 `mai
 
 1. **i18n 语言切换**: 将内置的 react-i18next 语言从 `en` 切换到 `zh_CN`，自动启用侧栏、导航等所有通过翻译键管理的文本
 2. **硬编码文本替换**: 使用正则表达式单次遍历，将 `children`、`title`、`label`、`tooltip`、`description` 等属性中约 3000+ 处硬编码英文替换为中文
-3. **请注意，此补丁为deepseek V4pro与mimio V2.5共同创建并且交叉，已人工检查，但不保证是否仍然有BUG
+3. 请注意，此补丁为deepseek V4pro与mimio V2.5共同创建并且交叉，已人工检查，但不保证是否仍然有BUG
 
 ## 安装
 
